@@ -34,6 +34,6 @@ for i in range(12):
 yearTax = 0
 for (i, x) in enumerate(taxList):
     yearTax += x
-    print("第" + str(i + 1) + "月纳税额是:" + str(x) + "元")
+    print("第" + str(i + 1) + "月纳税额是:" + str(round(x,3)) + "元")
 
-print("年度合计:" + str(yearTax) + "元")
+print("年度合计:" + str(round(yearTax,3)) + "元")
